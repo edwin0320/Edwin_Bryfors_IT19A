@@ -18,5 +18,5 @@ console.log(`Hej ${name} du är ${age} år gammal`)
 
 //DOM - document object module
 
-let text = document.querySelector("text")
-text.html = `${name} är ${age} är gammal`
+let text = document.querySelector("#text")
+text.innerHTML = (`${name} är ${age} är gammal`)
