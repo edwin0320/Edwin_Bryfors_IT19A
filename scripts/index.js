@@ -20,3 +20,15 @@ console.log(`Hej ${name} du är ${age} år gammal`)
 
 let text = document.querySelector("#text")
 text.innerHTML = (`${name} är ${age} är gammal`)
+
+
+let mult = document.querySelector("#multiplikation")
+let div = document.querySelector("#division")
+let add = document.querySelector("#addition")
+let sub = document.querySelector("#subtraktion")
+
+
+mult.innerHTML = `multiplikation`
+div.innerHTML = `division`
+add.innerHTML = `addition`
+sub.innerHTML = `subtraktion`
