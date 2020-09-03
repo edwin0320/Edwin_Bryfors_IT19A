@@ -32,3 +32,12 @@ mult.innerHTML = `multiplikation`
 div.innerHTML = `division`
 add.innerHTML = `addition`
 sub.innerHTML = `subtraktion`
+
+
+let button = document.querySelector("#knapp")
+
+button.addEventListener("#click", math)
+
+function math(event){
+    console.log("math-funktionen körs")
+}     
