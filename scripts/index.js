@@ -36,8 +36,11 @@ sub.innerHTML = `subtraktion`
 
 let button = document.querySelector("#knapp")
 
-button.addEventListener("#click", math)
+button.addEventListener("click", math)
 
 function math(event){
     console.log("math-funktionen körs")
+    
+    let num1 = parseFloat(document.querySelector("#number1").value)
+    let num2 = parseFloat(document.querySelector("#number2").value)
 }     
