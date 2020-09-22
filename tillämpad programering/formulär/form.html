@@ -6,46 +6,89 @@
     <title>Document</title>
 </head>
 <body>
+    <style> 
+    table {
+        background-color: lightgrey;
+        width: 400px;
+        border: 1px solid black;
+        padding: 50px;
+        margin-left: 40%;
+      }
+
+      body {
+        background-color: orange    ;
+        
+      }
+
+
+</style>
+
+ <form action="mailto:edwin.bryfors@elev.ga.ntig.se" method="get" enctype="text/plain">
+
+<table>
+<tr>
+<td><h1>Galet formulär</h1></td>
+</tr>
+<tr>
+<td><hr></td>   
+</tr>
     
+    
+    
+    
+    <tr>
+    <td><label for="email">Email</label></td>
+
+    <td><input type="email" placeholder="E-post" name="email" id="email" required></td>
+    </tr>
+
+<tr>
+    <td><label for="psw">Lösenord</label></td>
+    <td><input type="password" placeholder="Lösenord" name="psw" id="psw" required></td>
+</tr>
+
+<tr>
+    <td><label for="psw-repeat">Skriv lösenord igen</label></td>
+    <td><input type="password" placeholder="Lösenord igen" name="psw-repeat" id="psw-repeat" required></td>
+</tr>
+
+<tr>
+    <td><label for="brev">Hur många brev i veckan?</label></td>
+    <td><select id="brev" name="brev">
+        <option value="1brev">1</option>
+        <option value="2brev">2</option>
+        <option value="3brev">3</option>
+    </td>
+        </select>
+    </tr>
+
+<tr>
+   <td> <label for="reklam">Vill du ha reklam?</label></td>
+    <td><input type="checkbox"></td>
+
+</tr>
+
+<tr>
+<td><label for="textruta">Favoritnyheter</label></td>
+<td><input type="text" id="textruta" name="textruta" placeholder="Jag tycker om..."></td>
+</tr>
+
+<tr>
+<td><label for="tid"> När vill du sluta prenumerera?</label></td>
+<td><input type="date" id="tid" name="tid" required></td>
+</tr>
+
+<tr>
+<td><button type="reset" class="rensa">Rensa</button></td>
+<td>   <button type="submit" class="register">Klar</button></td>
+</tr>
+
+
+
+
+</table>
+
+
+</form>
 </body>
 </html>
-<form action= "mailto:edwin.bryfors@elev.ga.ntig.se" method="get" enctype="text/plain"></form>
-<h1>Galet formulär</h1>
-<p>Fyll i dina uppgifter i formuläret</p>
-<hr>
-<div>
-    <label for="email">Email</label>
-    <input type="email" placeholder="E-post" name="email" id="email" required>
-</div>
-<div>
-    <label for="psw">Lösenord</label>
-    <input type="password" placeholder="Lösenord" name="psw" id="psw" required>
-</div>
-<div>
-    <label for="psw-repeat">Skriv lösenordet igen</label>
-    <input type="password" placeholder="Lösenord igen" name="psw-repeat" id="psw" required>
-</div>
-<textarea rows=5 </textarea>
-<div>
-    <label class="switch">Jag vill gärna ta del av erbjudanden
-    <input type="checkbox"></input>
-     <span class="slider"></span>   
-    </label>
-</div>
-<div>
-    <label for="gender">Kön</label>
-    <select id="gender" name="gender">
-    <option value="kvinna">Kvinna</option>
-    <option value="man">Man</option>
-    <option value="vill inte ange">Vill inte ange</option>
-    </select>
-    </div>
-    
-    <hr>
-<div>
-    <label for="klar">Skicka in</label>
-    <button type="submit" class="register">Klar</button>
-
-    <label for="rensa">Rensa uppgifter</label>
-    <button type="reset" class="rensa">Rensa</button>
-</div>
