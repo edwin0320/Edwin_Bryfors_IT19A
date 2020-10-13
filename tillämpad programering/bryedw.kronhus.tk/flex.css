@@ -1,8 +1,10 @@
 header, nav, article, aside, footer {
     border:1px solid black;
     text-align:center;
-    background:rgb(246, 248, 250);
+    background:rgb(250, 249, 249);
     margin:5px;
+    border:3px solid rgb(0, 0, 0);
+    border-radius: 8px;
 }
 /*nav, article, aside wrapper*/
 section{
@@ -23,6 +25,19 @@ aside{
 footer{
 
 }
+a:link, a:visited {
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 6px;
+  }
+  
+  a:hover, a:active {
+    background-color:black;
+  }
 /*The @media rule is used in media queries to apply different styles for different media types/devices.*/
 @media only screen and (max-width: 660px) {
     section {
