@@ -38,3 +38,10 @@ function divition(tal1, tal2){
 }
 console.log(`12/3=${divition(12,3)}`)
 
+
+function cirkelArea(radie){
+    let area = Math.PI*radie**2
+    return area
+}
+
+console.log(`Arean av en cirkel med radie 10 l.e. är ${cirkelArea(5)}`)

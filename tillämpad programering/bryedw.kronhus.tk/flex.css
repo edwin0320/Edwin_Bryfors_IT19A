@@ -19,7 +19,7 @@ article{
     flex:3;
 }
 aside{
-    flex:2;
+    flex:3;
 }
 
 footer{
@@ -32,7 +32,7 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 6px;
+    border-radius: 3px;
   }
   
   a:hover, a:active {
