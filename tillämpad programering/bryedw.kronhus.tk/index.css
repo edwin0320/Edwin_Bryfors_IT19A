@@ -14,6 +14,7 @@ section{
 /*size of nav, artivle, aside*/
 nav{
     flex:2;
+    
 }
 article{
     flex:3;

@@ -25,12 +25,10 @@ article{
     flex:3;
 }
 aside{
-    flex:2;
+    flex:3;
 }
 
-footer{
 
-}
 /*The @media rule is used in media queries to apply different styles for different media types/devices.*/
 @media only screen and (max-width: 660px) {
     section {

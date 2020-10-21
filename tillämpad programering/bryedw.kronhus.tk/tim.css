@@ -11,8 +11,16 @@ section{
 }
 /*size of nav, artivle, aside*/
 nav{
-    flex:2;
+    flex:1;
 }
+ul {
+    padding: 0;
+}
+
+#testk {
+    text-align: center;
+}
+
 article{
     flex:3;
 }
@@ -28,4 +36,18 @@ footer{
     section {
       flex-direction:column;
     }
+  }
+
+  a:link, a:visited {
+    background-color:gray;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+  }
+  
+  a:hover, a:active {
+    background-color:black;
   }
