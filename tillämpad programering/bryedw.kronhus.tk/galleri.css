@@ -11,7 +11,7 @@ section{
 }
 /*size of nav, artivle, aside*/
 nav{
-    flex:1;
+   flex:3; 
 }
 ul {
     padding: 0;
@@ -51,3 +51,16 @@ footer{
   a:hover, a:active {
     background-color:black;
   }
+ 
+  body {
+    background-color: cadetblue;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.list li {
+    text-decoration: none;
+}

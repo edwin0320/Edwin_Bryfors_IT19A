@@ -45,3 +45,16 @@ a:link, a:visited {
       flex-direction:column;
     }
   }
+
+  body {
+    background-color: cadetblue;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.list li {
+    text-decoration: none;
+}
