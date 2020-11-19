@@ -1,0 +1,29 @@
+h1 {
+    color:blue
+}
+
+#container {
+    border: 2px solid black;
+    width: 600px;
+    border-radius:9px;
+    margin: 2rem auto;
+    background-color: hotpink;
+}
+
+body {
+    text-align: center;
+}
+
+form {
+    display: flex; 
+    flex-direction: column;
+    width: 70%;
+    margin: 2rem auto;
+}
+
+input[type="button"] {
+    width: 8rem;
+    margin: 1rem auto 0;
+    padding: 0.3rem;
+    border.radius: 4rem;
+}
