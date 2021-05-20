@@ -55,3 +55,14 @@ body {
   a:hover, a:active {
     background-color:black;
   }
+
+  @media only screen and (max-width: 660px) {
+    section {
+      flex-direction:column;
+    }
+  }
+
+  *{
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  

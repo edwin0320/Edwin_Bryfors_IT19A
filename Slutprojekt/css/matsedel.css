@@ -1,7 +1,7 @@
 header, nav, article, aside, footer {
     border:1px solid black;
     text-align:center;
-    background:rgb(250, 249, 249);
+    background:rgb(255, 255, 255);
     margin:5px;
     border:3px solid rgb(0, 0, 0);
     border-radius: 8px;
@@ -13,21 +13,35 @@ section{
 }
 /*size of nav, artivle, aside*/
 nav{
-    flex:2;
-    
+   flex:3; 
 }
+ul {
+    padding: 0;
+}
+
+#testk {
+    text-align: center;
+}
+
 article{
     flex:3;
 }
 aside{
-    flex:3;
+    flex:2;
 }
 
 footer{
 
 }
-a:link, a:visited {
-    background-color: rgb(0, 98, 255);
+/*The @media rule is used in media queries to apply different styles for different media types/devices.*/
+@media only screen and (max-width: 660px) {
+    section {
+      flex-direction:column;
+    }
+  }
+
+  a:link, a:visited {
+    background-color:rgb(0, 98, 255);
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -41,22 +55,26 @@ a:link, a:visited {
   a:hover, a:active {
     background-color:black;
   }
-/*The @media rule is used in media queries to apply different styles for different media types/devices.*/
-@media only screen and (max-width: 660px) {
-    section {
-      flex-direction:column;
-    }
-  }
-
+ 
   body {
     background-color: rgb(0, 98, 255);
 }
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
   }
 }
 
 .list li {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 660px) {
+  section {
+    flex-direction:column;
+  }
+}
+
+*{
+  font-family: "Lucida Console", "Courier New", monospace;
 }

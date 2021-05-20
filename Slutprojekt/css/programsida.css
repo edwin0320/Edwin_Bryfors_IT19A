@@ -13,7 +13,7 @@ section{
 }
 /*size of nav, artivle, aside*/
 nav{
-    flex:1;
+   flex:3; 
 }
 ul {
     padding: 0;
@@ -27,13 +27,12 @@ article{
     flex:3;
 }
 aside{
-    flex:3;
-}
-body {
-    background-color: rgb(0, 98, 255);
+    flex:2;
 }
 
+footer{
 
+}
 /*The @media rule is used in media queries to apply different styles for different media types/devices.*/
 @media only screen and (max-width: 660px) {
     section {
@@ -56,3 +55,26 @@ body {
   a:hover, a:active {
     background-color:black;
   }
+ 
+  body {
+    background-color: rgb(0, 98, 255);
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.list li {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 660px) {
+  section {
+    flex-direction:column;
+  }
+}
+
+*{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
